@@ -1,0 +1,56 @@
+header {
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)), /* La capa de color */
+        url('/assets/img/GranosCafe.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+     }
+
+    .titulo {
+        text-align: center;
+        font-size: 50px;
+        color: limegreen;
+        font-family: 'Arial Black', sans-serif;
+        margin-top: 20px;
+    }   
+
+    .subtitulo {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        font-family: 'Arial', sans-serif;
+        margin-top: 10px;
+    }
+    
+    .producto {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .img_producto {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        max-width: 300px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .prd-img {
+    float: left; /* Mueve la imagen a la izquierda */
+    width: 35%;  /* Ocupa un tercio del ancho */
+    margin-right: 20px; /* Espacio entre imagen y texto */
+    }
+    
+    .prd-info {
+    float: left;
+    width: 60%;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #f1f1f1;
+        margin-top: 20px;
+    }

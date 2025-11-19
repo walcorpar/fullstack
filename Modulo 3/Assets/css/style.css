@@ -1,0 +1,114 @@
+        body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.img-header {
+    width:100%; 
+    height:auto;
+}
+
+/*DESCRIPCION*/
+.container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    width: 80%; 
+    margin: 40px auto; 
+}
+ 
+.container div {
+    flex: 1; 
+    padding: 20px;
+    font-size: 16px;
+    max-width: 50%;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Caracteristicas*/
+
+.caracteristicas-section {
+    background-color: #1E1A13;
+    padding: 50px 0; 
+}
+
+.caracteristicas-titulo {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.caracteristicas-iconos {
+    display: flex; 
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.caracteristica-item {
+    text-align: center;
+    flex: 1; 
+    padding: 0 15px;
+}
+
+/* Estilos de los íconos */
+.caracteristica-item i {
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Estilos del texto de la característica */
+.caracteristica-item p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/*FLEX*/
+.section-flex{
+    display: flex; 
+    width: 90%;
+    height: auto;
+    margin: 40px auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.img-flex{
+    /*display: inline-flex;*/
+    flex:1;
+    height: 316px;
+    width: 202px;
+}
+
+.img-flex img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}   
+
+/*FOOTER*/
+footer {
+    background-color: #1E1A13;
+    padding: 50px 0; 
+    text-align: center;
+    color: #FFFFFF;
+}

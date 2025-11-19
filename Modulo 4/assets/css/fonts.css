@@ -1,0 +1,11 @@
+/* 1. Usar Roboto Light (300) por defecto en todo el texto */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* 2. Aplicar Roboto Medium (500) a los títulos */
+.roboto-500 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}

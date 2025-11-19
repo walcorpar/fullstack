@@ -1,0 +1,97 @@
+    body {
+        font-family: 'Lato', sans-serif; /* Fuente base legible */
+        color: #333; /* Color de texto base (marrón oscuro/negro) */
+        margin: 0;
+    }
+    
+    header {
+        /* Se hizo la capa más oscura para que el texto blanco resalte más */
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+            url('../img/GranosCafe.jpg'); 
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding-top: 50px; /* Espacio superior para centrado visual */
+        padding-bottom: 50px;
+    }
+
+    .titulo {
+        text-align: center;
+        font-size: 65px; /* Más grande y llamativo */
+        color: #FFFFFF; /* Blanco puro para contraste máximo */
+        font-family: 'Playfair Display', serif; /* Fuente elegante para títulos */
+        margin-top: 0; 
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para resaltar */
+    }   
+
+    .subtitulo {
+        text-align: center;
+        font-size: 24px;
+        color: #E8DCCF; /* Blanco cremoso o beige, más suave que el blanco puro */
+        font-family: 'Lato', sans-serif;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    /* Contenedor del producto para centrar el bloque completo */
+    .productos {
+        width: 80%;
+        max-width: 900px;
+        margin: 40px auto; /* Más espacio vertical para separar productos */
+        padding: 20px;
+        border-bottom: 1px solid #ddd; /* Separador sutil */
+    }
+
+    .img_producto {
+        width: 100%;
+        height: auto;
+        display: block;
+        max-width: 300px;
+        border-radius: 8px; /* Borde suave */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        object-fit: cover; /* Para que la imagen cubra bien su espacio */
+    }
+
+    .prd-img {
+        float: left;
+        width: 35%; 
+        margin-right: 20px;
+    }
+    
+    .prd-info {
+        float: left;
+        width: 60%;
+    }
+    
+    .prd-info h3 {
+        color: #6F4E37; /* Tono de marrón de café para títulos de producto */
+        font-family: 'Playfair Display', serif;
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-transform: capitalize; /* Para que 'cafe clasico' se vea bien */
+    }
+    
+    .prd-info p {
+        line-height: 1.3; /* Aumenta el espaciado entre líneas para mejor lectura */
+        margin-bottom: 5px;
+        color: #555;
+    }
+    
+    /* --- Estilos de Footer --- */
+
+    footer {
+        text-align: center;
+        padding: 30px;
+        background-color: #333;
+        color: #eee;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+    
+    /* Limpieza de flotantes */
+    .productos::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
